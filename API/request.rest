@@ -1,0 +1,91 @@
+GET http://localhost:3001/post
+
+###
+POST http://localhost:3001/Post
+Content-Type: application/json
+
+{
+     "author":"Person",
+
+    "text":"I was here"
+}
+
+###
+DELETE http://localhost:3001/post/delete/642a561ebbf8549570344675
+
+###
+POST http://localhost:3001/Post
+Content-Type: application/json
+
+{
+     "author":"Friendly Coder",
+
+    "text":"Hello"
+}
+
+###
+POST http://localhost:3001/Post
+Content-Type: application/json
+
+{
+    "text":"Hello",
+    "name":"Coder"
+},
+
+###
+DELETE http://localhost:3001/post/delete/642a57846cddf127c8fa1808
+
+###
+DELETE http://localhost:3001/post/delete/642a57866cddf127c8fa180a
+
+###
+DELETE http://localhost:3001/post/delete/642a57916cddf127c8fa180c
+
+###
+DELETE http://localhost:3001/post/delete/642a57926cddf127c8fa180e
+
+###
+DELETE http://localhost:3001/post/delete/642a57936cddf127c8fa1810
+
+###
+DELETE http://localhost:3001/post/delete/642a57b586a06dc585a86c54
+
+###
+DELETE http://localhost:3001/post/delete/642a583ebb5b859b1e72555c
+
+###
+POST http://localhost:3001/Post
+Content-Type: application/json
+
+{
+     "name":"Person",
+
+    "text":"I was here"
+}
+
+###
+PUT http://localhost:3001/post/edit/642a5b907c569788661e030e
+Content-Type: application/json
+
+{
+     "text":"Hello"
+}
+
+###
+POST http://localhost:3001/Post
+Content-Type: application/json
+
+{
+     "name":"Person",
+
+    "text":"New"
+}
+
+
+
+
+
+
+
+
+

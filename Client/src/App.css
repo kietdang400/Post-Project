@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+h1{
+  color:yellow;
+  margin-bottom: 10%;
+  font-size: xxx-large;
+}
+
+.modal-container{
+  border: 1px solid black;
+  width:30%;
+  padding: 5%;
+  background-color: rgb(173, 172, 172);
+ position: relative;
+ left:30%;
+ margin-bottom:5%;
+}
+
+.modal-container button{
+  color:white;
+  background-color:red;
+  margin-bottom: 5%;
+}
+
+.modal-container input{
+  margin-bottom: 3%;
+  margin-right: 3%;
+}
+
+
+
+.post-container .delete-button{
+float: right;
+justify-content: end;
+}
+
+.post-container{
+  display: grid;
+  grid-template-columns:15% 15% 15%;
+  column-gap: 3%;
+  justify-content: center;
+  align-items: center;
+}
+
+.post{
+  background-color: yellow;
+  margin-left: 15%;
+  padding: 2%;
+  padding-left:10% ;
+  padding-right:10% ;
+  width:fit-content;
+  margin-top: 15%;
+  margin-bottom: 30%;
+}
+.post .header{
+  border-bottom: 1px solid black;
+}
+
+.post .content{
+  padding: 10%;
+}
+
+.post button{
+  color:white;
+  background-color: red;
+  
+}
+
+.post .bottom{
+  border-top: 1px solid black; ;
+}
+
+
+
+
+
+
+
+
